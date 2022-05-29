@@ -1,0 +1,95 @@
+.panel {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 15px;
+  padding: 50px;
+}
+
+.left-panel, .right-panel {
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input, select {
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: 1px solid #888;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  height: 80px;
+}
+
+p {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.divide {
+  display: flex;
+  gap: 10px;
+}
+
+.divide div {
+  width: 50%;
+  display: inline-block;
+}
+
+.btn-area {
+  margin-top: 30px;
+}
+
+button {
+  width: 100%;
+  background-color: green;
+  border: none;
+  border-radius: 3px;
+  height: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.check-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  height: auto;
+  margin: 15px 10px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #888;
+  margin-top: 15px;
+  padding: 10px 15px;
+}
+
+.task-btn {
+  display: flex;
+  align-items: center;
+}
+
+.detail {
+  background-color: lightblue;
+}
+
+.remove {
+  background-color: red;
+  margin-left: 10px;
+}
